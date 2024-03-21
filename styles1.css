@@ -1,0 +1,292 @@
+/* Basic styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #693B69; /* Light blue background */
+    color: #36454f; /* Dark blue text color */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #511f52; /* Dark blue header background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: #ecd4ea; /* White background for sections */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h2 {
+    color: #511f52; /* Dark blue section titles */
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #511f52; /* Dark blue footer background */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Links */
+a {
+    color: #3498db; /* Blue link color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+a:hover {
+    color: #2980b9; /* Lighter blue on hover */
+}
+
+/* Buttons */
+button {
+    background-color: #3498db; /* Blue button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+button:hover {
+    background-color: #2980b9; /* Lighter blue on hover */
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Textarea */
+textarea {
+    height: 100px;
+}
+
+/* Error message */
+.error {
+    color: red;
+}
+
+/* About Me section */
+#about {
+    margin-bottom: 40px;
+  }
+  
+  .about-content {
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .about-content a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .about-content a:hover {
+    text-decoration: underline;
+  }
+  
+
+/* Success message */
+.success {
+    color: green;
+}
+/* Education section */
+#education {
+    margin-bottom: 40px;
+  }
+  
+  .education {
+    margin-bottom: 20px;
+  }
+  
+  .education h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .education p {
+    margin-bottom: 5px;
+  }
+  
+
+/* Skills section */
+#skills {
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-category {
+    flex-basis: 30%;
+    background-color: #fff; /* White background for skill categories */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    transition: transform 0.3s ease; /* Smooth transformation */
+}
+
+.skill-category:hover {
+    transform: translateY(-5px); /* Move up on hover */
+}
+
+.skill-category h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.skill-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-category ul li {
+    margin-bottom: 10px;
+    color: #666; /* Dim color for skills */
+}
+
+/* Projects section */
+#projects {
+    margin-bottom: 40px;
+}
+
+.project {
+    background-color: #fff; /* White background for projects */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    transition: transform 0.3s ease; /* Smooth transformation */
+}
+
+.project:hover {
+    transform: translateY(-5px); /* Move up on hover */
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.project p {
+    margin-bottom: 10px;
+    color: #666; /* Dim color for project description */
+}
+
+/* Achievements section */
+#achievements {
+    margin-bottom: 40px;
+}
+
+.achievement {
+    background-color: #fff; /* White background for achievements */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    transition: transform 0.3s ease; /* Smooth transformation */
+}
+
+.achievement:hover {
+    transform: translateY(-5px); /* Move up on hover */
+}
+
+.achievement h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.achievement p {
+    margin-bottom: 10px;
+    color: #666; /* Dim color for achievement description */
+}
+
+/* Positions section */
+#positions {
+    margin-bottom: 40px;
+}
+
+.position {
+    background-color: #fff; /* White background for positions */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    transition: transform 0.3s ease; /* Smooth transformation */
+}
+
+.position:hover {
+    transform: translateY(-5px); /* Move up on hover */
+}
+
+.position h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.position p {
+    margin-bottom: 10px;
+    color: #666; /* Dim color for position details */
+}
+
+.position h4 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.position ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
